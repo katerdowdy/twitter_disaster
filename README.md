@@ -1,4 +1,4 @@
-# Twitter Alert: Mapping Natural Disasters with Social Media
+# Twitter Alert: Tracking Rapid-Onset Disasters with Social Media
 
 ## Executive Summary
 Social media platforms such as Twitter have become an integral part of everyday life in the 21st century, connecting users across the world and reducing the virtual distances between them to zero. With the growing volume of people using social media on a daily basis, could Twitter be leveraged to crowdsource information about a rapid-onset disaster, especially under situations unmonitored by official alert systems or when traditional methods of communication fail? 
