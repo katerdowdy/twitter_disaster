@@ -61,7 +61,7 @@ After scraping the Tweets, we decided to remove everything that was not words or
 
 These “cleaned” tweets were then tokenized and lemmatized, using those tools from `nltk`, we generated both a `CountVectorizer` and `TfidfVectorizer`.
 
-## Modeling
+# Modeling
 
 **Baseline**: Approximately 46.9\% of tweets took place after the disaster began, giving that accuracy as our baseline - any model with accuracy above that threshold is an improvement over random assignment.
 
