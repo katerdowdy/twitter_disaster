@@ -63,7 +63,7 @@ These “cleaned” tweets were then tokenized and lemmatized, using those tools
 
 # Modeling
 
-**Baseline**: Approximately 46.9\% of tweets took place after the disaster began, giving that accuracy as our baseline - any model with accuracy above that threshold is an improvement over random assignment.
+**Baseline**: Approximately 53.1\% of tweets took place before the disaster began - with this as our majority class, we take 53.1% as our baseline (any model with accuracy above that threshold is an improvement over random assignment.)
 
 ### Finding Optimal Vectorizer and Model
 Each of these were fit to a training subset of our data (two-thirds of all gathered data), and used to transform the testing split of our data.
