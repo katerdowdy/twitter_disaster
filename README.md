@@ -11,13 +11,13 @@ For this project, we explored the proof of concept for a disaster alert system u
 ## Contents
 In this repo, you will find the following the following notebooks:
 
-A. Data Collection
+A. [Data Collection](https://github.com/katerdowdy/twitter_disaster/blob/master/A_Data_Collection.ipynb)
 
-B. Cleaning/ Natural Language Processing/ Modeling
+B. [Cleaning/ Natural Language Processing/ Modeling](https://github.com/katerdowdy/twitter_disaster/blob/master/B_Modeling.ipynb)
 
-C. Streaming Twitter Alerts
+C. [Streaming Twitter Alerts](https://github.com/katerdowdy/twitter_disaster/blob/master/C_Live_Stream_Twitter.ipynb)
 
-as well as presentation slides, our list of FEMA disasters we pulled from for our analyses, and the scraped tweets.
+as well as [presentation slides](https://github.com/katerdowdy/twitter_disaster/blob/master/Twitter%20Emergency%20Response%20System.pdf), our [list of FEMA disasters](https://github.com/katerdowdy/twitter_disaster/blob/master/fema.csv) we pulled from for our analyses, and the [scraped tweets](https://github.com/katerdowdy/twitter_disaster/blob/master/all_tweets_df).
 
 This project was developed by [Ben Brown](https://www.linkedin.com/in/benjamin-brown-3aa0925b/), [Ryan Dorris](https://www.linkedin.com/in/ryan-dorris-731151108/), [Kate Dowdy](http://www.katerdowdy.com/), [Ryan Fuller](https://www.linkedin.com/in/ryan-r-fuller/), and [Sam Singh](https://www.linkedin.com/in/simarpreet-singh1/) as part of the Data Science Immersive program at General Assembly in January, 2019.
 
@@ -128,6 +128,10 @@ The bag-of-words model has several limitations: it doesn't currently account for
 ## Future Steps
 With more time and resources, there are a few extensions to this project we would invest in:
 
-1. Developing our alert prototype into an interactive online dashboard displaying tweets, their frequency, and approximate location (these kind of visuals would be especially helpful to understand any trends our model might catch in addition to our bag-of-words filter).
-2. Investing in the Twitter Firehose API to have access to all streaming tweets (which we could use to further train our model)
-3. Pulling in official alerts for comparison against our predictions to test our model's accuracy in realtime, improve on classification of tweets related to disasters, and test how much earlier Twitter may be able to alert responders compared to official sources.
+1. Introducing unsupervised learning (clustering/topic modeling) into our model instead of relying on a supervised classification model for the overall volume of tweets. It would be interesting to analyze emerging topics and from there, use filters (ex. the bag-of-words related to disasters) to see which growing topics of conversation may be related to a disaster.
+
+2. Pulling in official alerts for comparison against our predictions to test our model's accuracy in realtime and test how much earlier Twitter may be able to alert responders compared to official sources.
+
+3. Developing our alert prototype into an interactive online dashboard displaying tweets, their frequency, and approximate location (these kind of visuals would be especially helpful to understand any trends our model might catch in addition to our bag-of-words filter).
+ 
+With unlimited resources for a real alert tool, we would also recommend investing in the Twitter Firehose API to have access to all streaming tweets (which we could use to further train our model.)
